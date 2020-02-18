@@ -1,0 +1,13 @@
+#custom{
+    max-width: 80%;
+    height: 80%;
+}
+
+.main-container{
+    width: 100%;
+}
+
+.custom-img{
+    max-width: 60%;
+    height: 60%;
+}
