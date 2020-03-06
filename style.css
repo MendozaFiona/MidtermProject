@@ -1,13 +1,16 @@
-#custom{
-    max-width: 80%;
-    height: 80%;
+header{
+    width: 87%;
+    margin: 6.5% 6.5% 0%;
 }
 
 .main-container{
-    width: 100%;
+    width: 87%;
+    margin: 0% 6.5% 6.5%;
+
+    background: rgb(133, 133, 60);
 }
 
-.custom-img{
-    max-width: 60%;
-    height: 60%;
+.page-labels{
+    padding: 1% 3%;
 }
+
