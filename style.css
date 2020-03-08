@@ -30,6 +30,8 @@ header{
 
 .part-container{
     background: rgb(133, 60, 60);
+    padding: 1%;
+    margin-bottom: 0.7%;
 }
 
 .sect-container{
