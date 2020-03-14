@@ -3,7 +3,7 @@ body{
 }
 
 footer{
-    background: burlywood;
+    background: #343a40;
     width: 87%;
     margin: 0% 6.5% 6.5%;
     padding: 1% 0%;
@@ -20,7 +20,7 @@ header{
 
 .all-bg{
     height: 100%;
-    background-image: url("img/testbg.jpg");
+    background-image: url("img/test.jpg");
 
     background-attachment: fixed;
     background-position: center;
@@ -30,7 +30,7 @@ header{
 
 .h-bg{
     height: auto;
-    background-image: url("img/testbg.jpg");
+    background-image: url("img/test.jpg");
 
     background-attachment: fixed;
     background-position: center;
@@ -61,8 +61,9 @@ header{
     margin: 0% 6.5%;
     padding-top: 10.5%;
     padding-bottom: 2%;
+    opacity: 0.95;
 
-    background: rgb(133, 133, 60);
+    background: #c7b198;
 }
 
 .overlay {
@@ -83,13 +84,39 @@ header{
 }
 
 .part-container{
-    background: rgb(133, 60, 60);
+    /* background: rgb(133, 60, 60); */
     padding: 1%;
-    margin-bottom: 0.7%;
+    margin: 1%;
 }
 
 .sect-container{
-    background: rgb(51, 192, 211);
+    background: #f0ece2;
     margin: 0 2%;
     padding: 1%;
+}
+
+.banner{
+    background-position: center;
+    background-size: cover;
+}
+
+#home-banner{
+    background-image: url("img/mark.jpg");
+
+}
+
+#educ-bg-banner{
+    background-image: url("img/lee.jpg");
+}
+
+#gallery-banner{
+    background-image: url("img/tae.jpg");
+}
+
+#about-banner{
+    background-image: url("img/shose.jpg");
+}
+
+#contact-banner{
+    background-image: url("img/miya.jpg");
 }
