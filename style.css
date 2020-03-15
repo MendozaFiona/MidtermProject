@@ -1,5 +1,16 @@
+@import url("fonts/BrandonGrotesque/style.css");
+@import url("fonts/ProximaNova/style.css");
+  
 body{
     height: 100%;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 600;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Brandon Grotesque', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
 }
 
 footer{
@@ -16,6 +27,23 @@ header{
     position: fixed;
     overflow: hidden;
     z-index: 10;
+}
+
+.navbar a{
+    transition: 0.3s;
+}
+
+.navbar a:hover{
+    color: black !important;
+    background-color: #f0ece2;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.navbar .active{
+    color: black !important;
+    background-color: #f0ece2;
+    border-radius: 5px;
 }
 
 .all-bg{
@@ -51,9 +79,6 @@ header{
     width: 50%;
 }
 
-.images{
-    height: 80%;
-}
 
 .main-container{
     width: 87%;
@@ -93,11 +118,25 @@ header{
     background: #f0ece2;
     margin: 0 2%;
     padding: 1%;
+    border-radius: 5px;
 }
 
 .banner{
     background-position: center;
     background-size: cover;
+}
+
+.home-img img{
+
+    transition: 0.3s;
+
+}
+
+.home-img img:hover{
+    border-radius: 50% !important;
+    background-color: chartreuse;
+    transition: 0.3s;
+    /* z-index: 1; */
 }
 
 #home-banner{
@@ -120,3 +159,4 @@ header{
 #contact-banner{
     background-image: url("img/miya.jpg");
 }
+
