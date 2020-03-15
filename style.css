@@ -154,7 +154,19 @@ header{
     opacity: 0;
     transition: .5s ease;
     background-color: #596e79;
-  }
+    text-align: center;
+}
+
+.zoom {
+    transition: transform .2s;
+    margin: 0 auto;
+    z-index: -1;
+}
+  
+.zoom:hover {
+    transform: scale(1.2);
+    z-index: 9999999;
+}
 
 .page-labels{
     padding: 0.5% 3%;
@@ -235,19 +247,49 @@ header{
 
 }
 
+#home-banner:hover{
+    background-image: url("img/kickit.gif");
+    transition: 0.5s;
+    background-size: cover;
+}
+
 #educ-bg-banner{
     background-image: url("img/lee.jpg");
+}
+
+#educ-bg-banner:hover{
+    background-image: url("img/jopping.gif");
+    transition: 0.5s;
+    background-size: cover;
 }
 
 #gallery-banner{
     background-image: url("img/tae.jpg");
 }
 
+#gallery-banner:hover{
+    background-image: url("img/7thsense.gif");
+    transition: 0.5s;
+    background-size: cover;
+}
+
 #about-banner{
     background-image: url("img/shose.jpg");
 }
 
+#about-banner:hover{
+    background-image: url("img/infinity.gif");
+    transition: 0.5s;
+    background-size: cover;
+}
+
 #contact-banner{
     background-image: url("img/miya.jpg");
+}
+
+#contact-banner:hover{
+    background-image: url("img/violeta.gif");
+    transition: 0.5s;
+    background-size: cover;
 }
 
